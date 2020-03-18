@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+
+for s in /assets/functions/*; do source $s; done
+PROCESS_NAME="rsyslog"
+
+### Check to see if Enabled/Disabled
+  if [ "$LOG_TYPE" != "SYSLOG" ] ;  then
+    print_warn "Disabling Syslog"
+    service_stop `basename $0`
+  fi
+
+liftoff
