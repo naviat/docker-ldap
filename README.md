@@ -53,9 +53,6 @@ The following image tags are available:
 
 # Quick Start
 
-* The quickest way to get started is using [docker-compose](https://docs.docker.com/compose/). See the examples folder for a working [docker-compose.yml](examples/docker-compose.yml) that can be modified for development or production use.
-
-* If you'd like to just use it in Handler mode, you will find another sample docker-compose.yml file that should get you started.
 
 * Add records for your main, and manager names into DNS (ie `handler.sso.example.com`. `manager.sso.example.com`, `sso.example.com`, `test.sso.example.com`)
 
