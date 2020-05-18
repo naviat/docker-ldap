@@ -2,7 +2,7 @@ FROM naviat/nginx:alpine-3.11
 
 LABEL maintainer="Van Hai <haidv.ict@gmail.com>"
 
-ENV LEMONLDAP_VERSION=2.0.7 \
+ENV LEMONLDAP_VERSION=2.0.8 \
     AUTHCAS_VERSION=1.7 \
     LASSO_VERSION=2.6.0 \
     LIBU2F_VERSION=1.1.0 \
